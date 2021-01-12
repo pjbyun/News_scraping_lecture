@@ -20,6 +20,9 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
+  "engines": {
+    "node": ">=0.14"
+  },
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
